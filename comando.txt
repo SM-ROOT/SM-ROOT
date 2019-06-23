@@ -19,6 +19,6 @@ esc (Finalizar bin)
 
 git log ---> Para poder ver todos los commit que se han realizado en el proyecto
 
-git checkout -- nombreDelArchiv ---> Archivo para regresar las modificaciones realizadas en el archivo
+git checkout -- nombreDelArchivo ---> Archivo para regresar las modificaciones realizadas en el archivo
 
-LLLLLLLLLL
+git diff nombreDelArchivo.extencion ---> Comando para poder ver la diferencia del texto del archivo que fue agrago
