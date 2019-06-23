@@ -1,10 +1,10 @@
-pwd ---> Comando con el cual se puede ver en que directorio nos encontramos
+ï»¿pwd ---> Comando con el cual se puede ver en que directorio nos encontramos
 
 ls ---> Comando que nos permite observar los archivos que se encuentran en el directorio de existencia
 
 git init --->Comando para poder iniciar los servicios de git para que esa ruta pueda ser usada como un repositirio 
 
-git status ---> Comando para poder el estado de los archivos, cuando se muestran en rojo es porque aún no se han agragado al espacio de trabajo
+git status ---> Comando para poder el estado de los archivos, cuando se muestran en rojo es porque aï¿½n no se han agragado al espacio de trabajo
 
 git add . ---> Comando para poder agragar archivos al repositorio, cuando son agregados y se hace un git status, se muestran en verde porque fueron agragado exitosamente.
 
@@ -13,8 +13,12 @@ git config --global user.mail "InfoContan@nameServer.com"  ---> Comando para pod
 git config --global user.name "NombreDelUsario" ---> Comando para poder asosiar el usuario con GIT 
 
 git commit ---> Comando para almacenar archivos al repositorio git 
-ctrl + i (Para agregar información dee mensaje del archivo que se agrego. Se abre en bin)
+ctrl + i (Para agregar informaciï¿½n dee mensaje del archivo que se agrego. Se abre en bin)
 esc (Finalizar bin)
 :wq (Cerrar bin con el mensaje agragado)
 
 git log ---> Para poder ver todos los commit que se han realizado en el proyecto
+
+git checkout -- nombreDelArchiv ---> Archivo para regresar las modificaciones realizadas en el archivo
+
+LLLLLLLLLL
