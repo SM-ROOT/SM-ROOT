@@ -26,3 +26,5 @@ git diff nombreDelArchivo.extencion ---> Comando para poder ver la diferencia de
 git commit -m "Mensaje que se deseea agregar"---> Este comando srive para poder evitar al espacio bin
 
 git branch "NombreBranch" ---> Comando que sirve para poder agregar nueva ruta.
+
+git checkout "NombreBranchLista" ---> Comando para poder cambiarse de host de control de versiones.
