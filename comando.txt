@@ -24,3 +24,5 @@ git checkout -- nombreDelArchivo ---> Archivo para regresar las modificaciones r
 git diff nombreDelArchivo.extencion ---> Comando para poder ver la diferencia del texto del archivo que fue agregado
 
 git commit -m "Mensaje que se deseea agregar"---> Este comando srive para poder evitar al espacio bin
+
+git branch "NombreBranch" ---> Comando que sirve para poder agregar nueva ruta.
