@@ -1,0 +1,9 @@
+pwd ---> Comando con el cual se puede ver en que directorio nos encontramos
+
+ls ---> Comando que nos permite observar los archivos que se encuentran en el directorio de existencia
+
+git init --->Comando para poder iniciar los servicios de git para que esa ruta pueda ser usada como un repositirio 
+
+git status ---> Comando para poder el estado de los archivos, cuando se muestran en rojo es porque aún no se han agragado al espacio de trabajo
+
+git add . ---> Comando para poder agragar archivos al repositorio, cuando son agregados y se hace un git status, se muestran en verde porque fueron agragado exitosamente.
