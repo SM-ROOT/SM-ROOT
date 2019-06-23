@@ -13,4 +13,8 @@ git config --global user.mail "InfoContan@nameServer.com"  ---> Comando para pod
 git config --global user.name "NombreDelUsario" ---> Comando para poder asosiar el usuario con GIT 
 
 git commit ---> Comando para almacenar archivos al repositorio git 
-ctrl
+ctrl + i (Para agregar información dee mensaje del archivo que se agrego. Se abre en bin)
+esc (Finalizar bin)
+:wq (Cerrar bin con el mensaje agragado)
+
+git log ---> Para poder ver todos los commit que se han realizado en el proyecto
