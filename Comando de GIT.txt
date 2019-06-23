@@ -7,3 +7,10 @@ git init --->Comando para poder iniciar los servicios de git para que esa ruta p
 git status ---> Comando para poder el estado de los archivos, cuando se muestran en rojo es porque aún no se han agragado al espacio de trabajo
 
 git add . ---> Comando para poder agragar archivos al repositorio, cuando son agregados y se hace un git status, se muestran en verde porque fueron agragado exitosamente.
+
+git config --global user.mail "InfoContan@nameServer.com"  ---> Comando para poder agregar una nueva informacion de identificador para que GIT pueda reconocer el usuario. HugoMendez@gmail.com
+
+git config --global user.name "NombreDelUsario" ---> Comando para poder asosiar el usuario con GIT 
+
+git commit ---> Comando para almacenar archivos al repositorio git 
+ctrl
