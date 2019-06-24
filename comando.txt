@@ -28,3 +28,9 @@ git commit -m "Mensaje que se deseea agregar"---> Este comando srive para poder 
 git branch "NombreBranch" ---> Comando que sirve para poder agregar nueva ruta.
 
 git checkout "NombreBranchLista" ---> Comando para poder cambiarse de host del control de versiones
+
+git push -u origin master  --->Para subir los commit
+
+$ git rebase origin/master --->Listar commit
+
+$ git remote set-url origin https://github.com/SM-ROOT/SM-ROOT.git  ---> Ruta para GiHub
