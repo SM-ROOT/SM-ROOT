@@ -34,3 +34,5 @@ git push -u origin master  --->Para subir los commit
 $ git rebase origin/master --->Listar commit
 
 $ git remote set-url origin https://github.com/SM-ROOT/SM-ROOT.git  ---> Ruta para GiHub
+
+https://github.com/SM-ROOT/SM-ROOT --> pagina de repositorio
