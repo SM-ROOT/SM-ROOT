@@ -1,0 +1,28 @@
+<h3><a class="btn btn-secondary" href="/supply"><i class="fa fa-plus"></i> Create New</a> Supply List</h3>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>RFC</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Address</th>
+            <th>Codigo postal</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.RFC}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.mobile}}</td>
+            <td>{{this.address}}</td>
+            <td>{{this.cp}}</td>
+            <td>
+                <a href="/supply/{{this._id}}"><i class="fa fa-pencil fa-lg" aria-hidden="true"></i></a>
+                <a href="/supply/delete/{{this._id}}" onclick="return confirm('Are you sure to delete this record ?');"><i class="fa fa-trash fa-lg" aria-hidden="true"></i></a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
