@@ -71,7 +71,7 @@
 		<valuelist name="Outline Code10" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
 		<groupspec>
-			<outline current="56"/>
+			<outline current="5"/>
 		</groupspec>
 		<tasks>
 			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" PercentComplete="41%" Name="WBS_Schedule2" Work="535h" WorkVariance="535h" RemainingWork="535h" ActualDuration="64.7792d" Duration="158d" DurationVariance="158d" RemainingDuration="93.2208d" Cost="73069.4900" ActualCost="30735.8930" CostVariance="73069.4900" RemainingCost="42333.5970" Start="2019-05-15T08:00" Finish="2019-12-20T17:00" EarlyStart="2019-05-15T08:00" EarlyFinish="2019-12-20T17:00" LateStart="2019-05-15T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-05-15T08:00" Critical="yes" Summary="yes"/>
@@ -104,7 +104,7 @@
 			<task ID="27" UniqueID="33" OutlineLevel="4" WBS="1.1.7.1" Name="Identificaci&#243;n de riesgos" Work="9h" WorkVariance="9h" RemainingWork="9h" FreeSlack="140d" TotalSlack="140d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" Cost="481.3200" FixedCost="481.3200" CostVariance="481.3200" RemainingCost="481.3200" Start="2019-06-05T08:00" Finish="2019-06-07T17:00" EarlyStart="2019-06-05T08:00" EarlyFinish="2019-06-07T17:00" LateStart="2019-12-18T08:00" LateFinish="2019-12-20T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="28" UniqueID="32" OutlineLevel="4" WBS="1.1.7.2" Name="An&#225;lisis cualitativo" Work="9h" WorkVariance="9h" RemainingWork="9h" FreeSlack="140d" TotalSlack="140d" Duration="3d" DurationVariance="3d" RemainingDuration="3d" Cost="481.3200" FixedCost="481.3200" CostVariance="481.3200" RemainingCost="481.3200" Start="2019-06-05T08:00" Finish="2019-06-07T17:00" EarlyStart="2019-06-05T08:00" EarlyFinish="2019-06-07T17:00" LateStart="2019-12-18T08:00" LateFinish="2019-12-20T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="29" UniqueID="31" OutlineLevel="4" WBS="1.1.7.3" Name="Control de riesgos" Work="6h" WorkVariance="6h" RemainingWork="6h" FreeSlack="141d" TotalSlack="141d" Duration="2d" DurationVariance="2d" RemainingDuration="2d" Cost="320.8800" FixedCost="320.8800" CostVariance="320.8800" RemainingCost="320.8800" Start="2019-06-05T08:00" Finish="2019-06-06T17:00" EarlyStart="2019-06-05T08:00" EarlyFinish="2019-06-06T17:00" LateStart="2019-12-19T08:00" LateFinish="2019-12-20T17:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="30" UniqueID="5" OutlineLevel="3" WBS="1.1.8" PercentComplete="6%" Name="Cierre de proyecctos" Work="15h" WorkVariance="15h" RemainingWork="15h" FreeSlack="90d" TotalSlack="90d" ActualDuration="0.1208d" Duration="2d" DurationVariance="2d" RemainingDuration="1.8792d" Cost="589.0200" ActualCost="98.0280" CostVariance="589.0200" RemainingCost="490.9920" Start="2019-08-15T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-19T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="30" UniqueID="5" OutlineLevel="3" WBS="1.1.8" PercentComplete="6%" Name="Cierre de proyectos" Work="15h" WorkVariance="15h" RemainingWork="15h" FreeSlack="90d" TotalSlack="90d" ActualDuration="0.1208d" Duration="2d" DurationVariance="2d" RemainingDuration="1.8792d" Cost="589.0200" ActualCost="98.0280" CostVariance="589.0200" RemainingCost="490.9920" Start="2019-08-15T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-19T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
 			<task ID="31" UniqueID="30" OutlineLevel="4" WBS="1.1.8.1" PercentComplete="30%" Name="Acta de libelaci&#243;n" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="90d" TotalSlack="90d" ActualDuration="0.3d" Duration="1d" DurationVariance="1d" RemainingDuration="0.7d" Cost="326.7600" ActualCost="98.0280" FixedCost="326.7600" CostVariance="326.7600" RemainingCost="228.7320" Start="2019-08-16T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-16T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-16T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="32" UniqueID="29" OutlineLevel="4" WBS="1.1.8.2" Name="CheckList de cierre" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="90d" TotalSlack="90d" Duration="1d" DurationVariance="1d" Cost="160.4400" FixedCost="160.4400" CostVariance="160.4400" RemainingCost="160.4400" Start="2019-08-16T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-16T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-16T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="33" UniqueID="28" OutlineLevel="4" WBS="1.1.8.3" Name="Minuta de cirre" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="91d" TotalSlack="91d" Duration="1d" DurationVariance="1d" Cost="101.8200" FixedCost="101.8200" CostVariance="101.8200" RemainingCost="101.8200" Start="2019-08-15T08:00" Finish="2019-08-15T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-15T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
@@ -225,7 +225,7 @@
 			</footer>
 		</pageLayoutSpec>
 	</pageLayouts>
-	<views current="WBS Planning View" current_wbs="WBS Planning View" current_nd="Network Chart View" current_ts="Task Sheet View - Baseline" current_gantt="Gantt Chart View" current_swimlane="Basic Swim Lane View">
+	<views current="WBS Chart with WBS Codes" current_wbs="WBS Chart with WBS Codes" current_nd="Network Chart View" current_ts="Task Sheet View - Baseline" current_gantt="Gantt Chart View" current_swimlane="Basic Swim Lane View">
 		<ts_view id="Basic Swim Lane View" pagelayout="Gantt Chart Page Layout" ganttchart="yes" swimlanechart="yes" packbars="yes" hidesummarybars="yes" packmilestones="yes" lockfirst="no" fonttextpolicy="outlinelevel" fontfillpolicy="outlinelevel">
 			<columns>
 			</columns>
@@ -2725,7 +2725,7 @@
 </wbs_diff>
 
 		</wbs_view>
-		<wbs_view id="WBS Chart with WBS Codes" pagelayout="WBS Chart Page Layout" borderpolicy="outlinelevel" borderfillpolicy="outlinelevel" bordershadowpolicy="outlinelevel">
+		<wbs_view id="WBS Chart with WBS Codes" pagelayout="WBS Chart Page Layout" zoomlevel="110" borderpolicy="outlinelevel" borderfillpolicy="outlinelevel" bordershadowpolicy="outlinelevel">
 			<connector crstyle="curve">
 				<line id="in" width="1.5pt"/>
 				<line id="out" width="1.5pt"/>
@@ -2796,6 +2796,9 @@
 			<groupspec>
 			</groupspec>
 <wbs_diff>
+	<treediff id="15">
+		<item before="15.15pt"/>
+	</treediff>
 </wbs_diff>
 
 		</wbs_view>
@@ -3274,4 +3277,8 @@
 
 		</wbs_view>
 	</views>
+	<baseline id="rollup">
+	</baseline>
+	<baseline id="full">
+	</baseline>
 </project>
