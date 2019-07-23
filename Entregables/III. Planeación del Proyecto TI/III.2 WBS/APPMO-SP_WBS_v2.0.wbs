@@ -43,7 +43,7 @@
 			<item value="6" desc="Admministraci&#243;n de las comunicaciones" level="2"/>
 			<item value="3" desc="Minutas" level="3"/>
 			<item value="7" desc="Administrac&#243;n de los riesgos" level="2"/>
-			<item value="8" desc="Cierre de proyecctos" level="2"/>
+			<item value="8" desc="Cierre de proyectos" level="2"/>
 			<item value="2" desc="Sitema APPMO-SP" level="1"/>
 			<item value="1" desc="Modelado del procesos de negocios" level="2"/>
 			<item value="3" desc="Dise&#241;o de la aplicaci&#243;n" level="2"/>
@@ -71,7 +71,7 @@
 		<valuelist name="Outline Code10" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
 		<groupspec>
-			<outline current="5"/>
+			<outline current="28"/>
 		</groupspec>
 		<tasks>
 			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" PercentComplete="41%" Name="WBS_Schedule2" Work="535h" WorkVariance="535h" RemainingWork="535h" ActualDuration="64.7792d" Duration="158d" DurationVariance="158d" RemainingDuration="93.2208d" Cost="73069.4900" ActualCost="30735.8930" CostVariance="73069.4900" RemainingCost="42333.5970" Start="2019-05-15T08:00" Finish="2019-12-20T17:00" EarlyStart="2019-05-15T08:00" EarlyFinish="2019-12-20T17:00" LateStart="2019-05-15T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-05-15T08:00" Critical="yes" Summary="yes"/>
@@ -107,7 +107,7 @@
 			<task ID="30" UniqueID="5" OutlineLevel="3" WBS="1.1.8" PercentComplete="6%" Name="Cierre de proyectos" Work="15h" WorkVariance="15h" RemainingWork="15h" FreeSlack="90d" TotalSlack="90d" ActualDuration="0.1208d" Duration="2d" DurationVariance="2d" RemainingDuration="1.8792d" Cost="589.0200" ActualCost="98.0280" CostVariance="589.0200" RemainingCost="490.9920" Start="2019-08-15T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-19T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
 			<task ID="31" UniqueID="30" OutlineLevel="4" WBS="1.1.8.1" PercentComplete="30%" Name="Acta de libelaci&#243;n" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="90d" TotalSlack="90d" ActualDuration="0.3d" Duration="1d" DurationVariance="1d" RemainingDuration="0.7d" Cost="326.7600" ActualCost="98.0280" FixedCost="326.7600" CostVariance="326.7600" RemainingCost="228.7320" Start="2019-08-16T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-16T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-16T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="32" UniqueID="29" OutlineLevel="4" WBS="1.1.8.2" Name="CheckList de cierre" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="90d" TotalSlack="90d" Duration="1d" DurationVariance="1d" Cost="160.4400" FixedCost="160.4400" CostVariance="160.4400" RemainingCost="160.4400" Start="2019-08-16T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-16T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-16T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="33" UniqueID="28" OutlineLevel="4" WBS="1.1.8.3" Name="Minuta de cirre" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="91d" TotalSlack="91d" Duration="1d" DurationVariance="1d" Cost="101.8200" FixedCost="101.8200" CostVariance="101.8200" RemainingCost="101.8200" Start="2019-08-15T08:00" Finish="2019-08-15T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-15T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="33" UniqueID="28" OutlineLevel="4" WBS="1.1.8.3" Name="Minuta de cierre" Work="3h" WorkVariance="3h" RemainingWork="3h" FreeSlack="91d" TotalSlack="91d" Duration="1d" DurationVariance="1d" Cost="101.8200" FixedCost="101.8200" CostVariance="101.8200" RemainingCost="101.8200" Start="2019-08-15T08:00" Finish="2019-08-15T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-15T17:00" LateStart="2019-12-20T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="34" UniqueID="27" OutlineLevel="4" WBS="1.1.8.4" Name="Lecciones aprendidas" Work="6h" WorkVariance="6h" RemainingWork="6h" FreeSlack="90d" TotalSlack="90d" Duration="2d" DurationVariance="2d" RemainingDuration="2d" Start="2019-08-15T08:00" Finish="2019-08-16T17:00" EarlyStart="2019-08-15T08:00" EarlyFinish="2019-08-16T17:00" LateStart="2019-12-19T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-08-15T08:00" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="35" UniqueID="3" OutlineLevel="2" WBS="1.2" PercentComplete="39%" Name="Sitema APPMO-SP" Work="397h" WorkVariance="397h" RemainingWork="397h" ActualDuration="55.7708d" Duration="143d" DurationVariance="143d" RemainingDuration="87.2292d" Cost="64582.4500" ActualCost="25898.5390" CostVariance="64582.4500" RemainingCost="38683.9110" Start="2019-06-05T08:00" Finish="2019-12-20T17:00" EarlyStart="2019-06-05T08:00" EarlyFinish="2019-12-20T17:00" LateStart="2019-06-07T08:00" LateFinish="2019-12-20T17:00" ActualStart="2019-06-05T08:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
 			<task ID="36" UniqueID="44" OutlineLevel="3" WBS="1.2.1" PercentComplete="100%" Name="Modelado del procesos de negocios" Work="12h" WorkVariance="12h" RemainingWork="12h" ActualDuration="2d" Duration="2d" DurationVariance="2d" Cost="1170.1200" ActualCost="1170.1200" CostVariance="1170.1200" Start="2019-06-13T08:00" Finish="2019-06-14T17:00" EarlyStart="2019-06-13T08:00" EarlyFinish="2019-06-14T17:00" LateStart="2019-06-13T08:00" LateFinish="2019-06-14T17:00" ActualStart="2019-06-13T08:00" ActualFinish="2019-06-14T17:00" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
@@ -3268,10 +3268,12 @@
 			</groupspec>
 <wbs_diff>
 	<treediff id="26">
-		<item before="27.9pt"/>
+		<item before="27.9pt">
+		</item>
 	</treediff>
 	<treediff id="30">
-		<item calign="independent" adjust="0.9pt"/>
+		<item calign="independent" adjust="0.9pt">
+		</item>
 	</treediff>
 </wbs_diff>
 
