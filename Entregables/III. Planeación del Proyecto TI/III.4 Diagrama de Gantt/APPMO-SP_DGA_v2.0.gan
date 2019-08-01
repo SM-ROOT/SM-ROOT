@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2018-12-01" view-index="0" gantt-divider-location="504" resource-divider-location="300" version="2.8.1" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-01-01" view-index="0" gantt-divider-location="504" resource-divider-location="300" version="2.8.1" locale="es">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="273" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="90" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="122" order="2"/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="269" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="93" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="123" order="2"/>
         <option id="color.recent"><![CDATA[#00cc99 #00cccc #00ffff #999900 #00cc33 #00cc00 #669900 #ff99ff #9999ff #ff3366]]></option>
     </view>
     <view id="resource-table">
@@ -58,13 +58,14 @@
             </task>
             <task id="82" name="3.2 Desarrollo" color="#00cccc" meeting="false" start="2019-02-04" duration="99" complete="0" expand="true">
                 <task id="106" name="3.2.1 Módulo Compras" color="#00cc99" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2019-02-04" duration="10" complete="0" expand="true"/>
-                <task id="107" name="3.2.2 Módulo Bodegas" color="#00cc99" meeting="false" start="2019-02-04" duration="29" complete="0" expand="true"/>
                 <task id="108" name="3.2.3 Módulo Producción" color="#00cc99" meeting="false" start="2019-03-01" duration="47" complete="0" expand="true"/>
                 <task id="109" name="3.2.4 Módulo Almacen" color="#00cc99" meeting="false" start="2019-03-01" duration="56" complete="0" expand="true"/>
                 <task id="110" name="3.2.5 Módulo Ventas" color="#00cc99" meeting="false" start="2019-05-07" duration="33" complete="0" expand="true"/>
             </task>
-            <task id="95" name="3.3 Seguimiento" color="#00cccc" meeting="false" start="2019-06-24" duration="35" complete="0" expand="true">
-                <task id="96" name="3.3.1 Pruebas" color="#00cc99" meeting="false" start="2019-06-24" duration="32" complete="0" expand="true"/>
+            <task id="95" name="3.3 Seguimiento" color="#00cccc" meeting="false" start="2019-02-04" duration="135" complete="0" expand="true">
+                <task id="96" name="3.3.1 Pruebas" color="#00cc99" meeting="false" start="2019-02-04" duration="29" complete="0" expand="true">
+                    <task id="111" name="3.2.2 Módulo Bodegas" color="#00cc99" meeting="false" start="2019-02-04" duration="29" complete="0" expand="true"/>
+                </task>
                 <task id="97" name="3.3.2 Pruebas del servidor" color="#00cc99" meeting="false" start="2019-07-01" duration="20" complete="0" expand="true"/>
                 <task id="98" name="3.3.3 Implementación de módulos" color="#00cc99" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
             </task>
