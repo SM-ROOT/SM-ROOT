@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-01-21" view-index="0" gantt-divider-location="548" resource-divider-location="300" version="2.8.1" locale="es">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="344" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="121" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="79" order="2"/>
+        <timeline><![CDATA[59,44]]></timeline>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="1.0 Planeación" color="#8cb6ce" meeting="false" start="2019-01-07" duration="15" complete="0" expand="false">
+            <task id="23" name="1.1 Definición de Objetivos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-07" duration="4" complete="0" expand="true"/>
+            <task id="24" name="1.2 Requerimientos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-10" duration="4" complete="0" expand="true"/>
+            <task id="25" name="1.3 Definicion de Alcances" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-15" duration="4" complete="0" expand="true"/>
+            <task id="30" name="1.4 Cronograma de Actividades" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-18" duration="2" complete="0" expand="true"/>
+            <task id="33" name="1.5 Plan de Contengencia" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-21" duration="3" complete="0" expand="true"/>
+            <task id="36" name="1.6 Plan de Gestión de riesgos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-23" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="44" name="2.0 Base de Datos" color="#8cb6ce" meeting="false" start="2019-01-21" duration="11" complete="0" expand="false">
+            <task id="48" name="2.1 Diagramas UML" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-21" duration="3" complete="0" expand="true"/>
+            <task id="50" name="2.2 Entidad Relación" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-23" duration="3" complete="0" expand="true"/>
+            <task id="54" name="2.3 Modelo Relacional" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-25" duration="3" complete="0" expand="true"/>
+            <task id="56" name="2.4 Diccionario de Datos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-29" duration="3" complete="0" expand="true"/>
+            <task id="59" name="2.5 Codificiación de la BD" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-31" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="75" name="3.0 Diseño" color="#8cb6ce" meeting="false" start="2019-01-18" duration="12" complete="0" expand="false">
+            <task id="77" name="3.1 Wireframes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-01-18" duration="12" complete="0" expand="true"/>
+        </task>
+        <task id="80" name="4.0 Modulo Compras" color="#8cb6ce" meeting="false" start="2019-02-04" duration="20" complete="0" expand="false">
+            <task id="82" name="4.1 Creación de Vistas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-02-04" duration="20" complete="0" expand="true"/>
+            <task id="88" name="4.2 Creación de Controladores" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-02-04" duration="20" complete="0" expand="true"/>
+            <task id="90" name="4.3 Creación de  Modelos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-02-04" duration="20" complete="0" expand="true"/>
+            <task id="92" name="4.4 Reportes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-02-04" duration="20" complete="0" expand="true"/>
+        </task>
+        <task id="95" name="5.0 Modulo Bodegas" color="#8cb6ce" meeting="false" start="2019-03-04" duration="20" complete="0" expand="false">
+            <task id="97" name="5.1 Creación de Vistas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-03-04" duration="20" complete="0" expand="true"/>
+            <task id="99" name="5.2 Creación de Controladores" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-03-04" duration="20" complete="0" expand="true"/>
+            <task id="101" name="5.3 Creación de  Modelos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-03-04" duration="20" complete="0" expand="true"/>
+            <task id="103" name="5.4 Reportes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-03-04" duration="20" complete="0" expand="true"/>
+        </task>
+        <task id="119" name="6.0 Modulo Producción" color="#8cb6ce" meeting="false" start="2019-04-01" duration="30" complete="0" expand="false">
+            <task id="121" name="6.1 Creación de Vistas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-04-01" duration="30" complete="0" expand="true"/>
+            <task id="123" name="6.2 Creación de Controladores" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-04-01" duration="30" complete="0" expand="true"/>
+            <task id="125" name="6.3 Creación de  Modelos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-04-01" duration="30" complete="0" expand="true"/>
+            <task id="127" name="6.4 Reportes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-04-01" duration="30" complete="0" expand="true"/>
+        </task>
+        <task id="135" name="7.0 Modulo Almacen" color="#8cb6ce" meeting="false" start="2019-05-07" duration="24" complete="0" expand="false">
+            <task id="137" name="7.1 Creación de Vistas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-07" duration="24" complete="0" expand="true"/>
+            <task id="139" name="7.2 Creación de Controladores" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-07" duration="24" complete="0" expand="true"/>
+            <task id="141" name="7.3 Creación de  Modelos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-07" duration="24" complete="0" expand="true"/>
+            <task id="143" name="7.4 Reportes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-07" duration="24" complete="0" expand="true"/>
+        </task>
+        <task id="148" name="8.0 Modulo Ventas" color="#8cb6ce" meeting="false" start="2019-06-10" duration="30" complete="0" expand="false">
+            <task id="150" name="8.1 Creación de Vistas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-10" duration="30" complete="0" expand="true"/>
+            <task id="152" name="8.2 Creación de Controladores" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-10" duration="30" complete="0" expand="true"/>
+            <task id="154" name="8.3 Creación de  Modelos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-10" duration="30" complete="0" expand="true"/>
+            <task id="156" name="8.4 Reportes" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-10" duration="30" complete="0" expand="true"/>
+        </task>
+        <task id="162" name="9.0 Pruebas" color="#8cb6ce" meeting="false" start="2019-06-03" duration="47" complete="0" expand="false">
+            <task id="164" name="9.1 Probar Modulo Compras" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="166" name="9.2 Probar Modulo Bodegas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="168" name="9.3 Probar Modulo Producción" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="170" name="9.4 Probar Modulo Almacen" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="172" name="9.5 Probar Modulo Ventas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="174" name="9.6 Probar Accesos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="176" name="9.7 Probar Integridad de Datos" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+            <task id="178" name="9.8 Probar Performance" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-06-03" duration="47" complete="0" expand="true"/>
+        </task>
+        <task id="179" name="10.0  Pruebas del Servidor" color="#8cb6ce" meeting="false" start="2019-07-01" duration="20" complete="0" expand="false">
+            <task id="181" name="10.1 Crear Servidor" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="20" complete="0" expand="true"/>
+            <task id="195" name="10.2 Implementar Servidor" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="20" complete="0" expand="true"/>
+        </task>
+        <task id="200" name="11.0 Implementación" color="#8cb6ce" meeting="false" start="2019-07-01" duration="30" complete="0" expand="false">
+            <task id="204" name="11.1 Implementar Modulo Compras" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
+            <task id="207" name="11.2 Implementar Modulo Bodegas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
+            <task id="209" name="11.3 Implementar Modulo Producción" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
+            <task id="212" name="11.4 Implementar Modulo Almacen" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
+            <task id="214" name="11.5 Implementar Modulo Ventas" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-01" duration="30" complete="0" expand="true"/>
+        </task>
+        <task id="231" name="12.0 Seguridad" color="#8cb6ce" meeting="false" start="2019-07-19" duration="13" complete="0" expand="false">
+            <task id="233" name="12.1 Seguridad de la Aplicación" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-19" duration="13" complete="0" expand="true"/>
+            <task id="239" name="12.2 Seguridad del Servidor" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-07-19" duration="13" complete="0" expand="true"/>
+        </task>
+        <task id="222" name="13.0 Documentación de Referencia" color="#8cb6ce" meeting="false" start="2019-05-24" duration="51" complete="0" expand="false">
+            <task id="224" name="13.1 Manual de Usuario" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-24" duration="51" complete="0" expand="true"/>
+            <task id="228" name="13.2  Manual Técnico" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-24" duration="51" complete="0" expand="true"/>
+            <task id="230" name="13.3  Manual de Instalación" color="#8cb6ce" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2019-05-24" duration="51" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
