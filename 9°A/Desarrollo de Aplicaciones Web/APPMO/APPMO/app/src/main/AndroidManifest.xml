@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appmo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Purchases.MaterialEdit"></activity>
+        <activity android:name=".Client.ClientEdit" />
+        <activity android:name=".Purchases.MaterialConsult" />
+        <activity android:name=".Supply.SupplyEdit" />
+        <activity android:name=".Route.RouteConsult" />
+        <activity android:name=".Order.ConsultOrder" />
+        <activity android:name=".Employee.ConsultUser" />
+        <activity android:name=".Client.ClientConsult" />
+        <activity android:name=".Supply.SupplyConsult" />
+        <activity android:name=".Sell.DetailsConsult" />
+        <activity android:name=".Route.MainContainerRoute" />
+        <activity android:name=".Employee.MainContainerUser" />
+        <activity android:name=".Sell.MainContainerSell" />
+        <activity android:name=".RoomCheck.MainContainerRoomCheck" />
+        <activity android:name=".Recipe.MainContainerRecipe" />
+        <activity android:name=".Client.MainContainerClient" />
+        <activity android:name=".Supply.MainContainerSupply" />
+        <activity android:name=".Purchases.MainContainerRoomStock" />
+        <activity android:name=".Order.MainContainerIndex" /> <!-- android:name=".Splash.MainContainerSplash" -->
+        <activity
+            android:name=".Splash.MainContainerSplash"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

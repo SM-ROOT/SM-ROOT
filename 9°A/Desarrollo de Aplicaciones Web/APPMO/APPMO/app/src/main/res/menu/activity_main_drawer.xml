@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/roomStock"
+        android:icon="@drawable/ic_room_stock"
+        android:title="@string/roomStock" />
+
+    <item
+        android:id="@+id/getResourse"
+        android:icon="@drawable/ic_supply"
+        android:title="@string/getResourse" />
+
+    <item
+        android:id="@+id/client"
+        android:icon="@drawable/ic_client"
+        android:title="@string/client" />
+
+    <item
+        android:id="@+id/recipe"
+        android:icon="@drawable/ic_recipe"
+        android:title="@string/recipe" />
+
+    <item
+        android:id="@+id/roomCheck"
+        android:icon="@drawable/ic_room_check"
+        android:title="@string/roomCheck" />
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_user"
+        android:title="@string/user" />
+
+    <item
+        android:id="@+id/sell"
+        android:icon="@drawable/ic_sell"
+        android:title="@string/sell" />
+
+    <item
+        android:id="@+id/route"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="@string/route" />
+
+
+</menu>
+

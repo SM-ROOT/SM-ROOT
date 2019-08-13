@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name">APPMO</string>
+
+    <!--TODO:SPLASH-->
+    <string name="lookConnection">Revise su conexión a internet</string>
+
+    <!--TODO:LOGIN-->
+    <string name="txtErrorMatriLogin">Verifique la matricula</string>
+    <string name="txtErrorPasswordLogin">Verifique la contraseña</string>
+    <string name="tvTitleMatriLogin">MATRICULA</string>
+    <string name="tcTitlePasswordLogin">CONTRASEÑA</string>
+    <string name="btnTitleEntryIndex">Ingresar</string>
+    <string name="btnNewPasswordLogin">Nueva Contraseña</string>
+    <string name="send">Envíar</string>
+    <string name="error">Error</string>
+    <string name="sendMake">Se ha envíado</string>
+    <string name="mail">Correo electronico</string>
+    <string name="infoMail">El correo fue envio a la siguiente
+    dirección electronica: </string>
+
+    <!--TODO:CARD_VIEW-->
+    <string name="dateorder">Información de la orden </string>
+    <string name="name">NOMBRE: </string>
+    <string name="qualitity">CANTIDAD: </string>
+    <string name="destination">Destino: </string>
+
+
+    <!--TODO:INDEX-->
+    <string name="messages">Mensajes</string>
+    <string name="notification">Notiticaciones</string>
+    <string name="noStart">No empezadas</string>
+    <string name="Finished">Finalizadas</string>
+    <string name="messageAlertTitle">¿Cerrar aplicación?</string>
+    <string name="messageAlertAccept">Aceptar = Terminar de usar la apliacion</string>
+    <string name="messageAlertCancel">Regresar = Regresar a la informacion de inicio de sesión</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="titleCardView">PEDIDO CORRESPONDIENTE AL DIA</string>
+    <string name="details">Detalles</string>
+
+    <!--TODO:DRAWER_MENU-->
+    <string name="roomStock">Bodega</string>
+    <string name="getResourse">Proveedores</string>
+    <string name="report">Reportes</string>
+    <string name="client">Clientes</string>
+    <string name="recipe">Receta</string>
+    <string name="roomCheck">Almacén</string>
+    <string name="production">Producción</string>
+    <string name="user">Usuario</string>
+    <string name="sell">Ventas</string>
+
+
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>0
+
+    <!--TODO:ROOM_STOCK-->
+    <string name="nameRoomStock">NOMBRE</string>
+    <string name="typeRoomStock">TIPO</string>
+    <string name="quantityRoomStock">CANTIDAD</string>
+
+    <!--TODO:ROOM_CHECK-->
+    <string name="route">Ruta</string>
+    <string name="local">Local</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation_drawer_modules">NavigationDrawerModules</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="addres">Dirección: </string>
+    <string name="rfcsupply">RFC: </string>
+    <string name="mailcardsupply">Correo electronico: </string>
+    <string name="numberPhonesupply">Numero de telefono: </string>
+    <string name="addrescardsupply">Dirrección: </string>
+    <string name="numberaddrescardsupply">Numero de dirreción: </string>
+    <string name="localtioncardsupply">Localidad: </string>
+    <string name="cpcardsupply">Codigo postal: </string>
+    <string name="statescardsupply">Estado: </string>
+    <string name="citycardsupply">Ciudad: </string>
+    <string name="countrycardsupply">Pais: </string>
+    <string name="product">Producto:</string>
+    <string name="addresSu">DIRECCIÓN</string>
+    <string name="nameAddres">Nombre de la dirreción</string>
+    <string name="cpsupply">Codigo Postal</string>
+    <string name="citysupply">Ciudad</string>
+    <string name="state">Estado</string>
+    <string name="country">País</string>
+    <string name="number"># Dirreción</string>
+    <string name="colonysupply">Colonia</string>
+    <string name="alertSupply">¿Desea guardar el proveedor?</string>
+    <string name="alertExit">¿Desea salir?</string>
+    <string name="alertExitProduct">¿Seguro que no desea guardar los datos de esta materia prima?</string>
+    <string name="subNamePather">APE/ PATERNO</string>
+    <string name="subNameMother">APE / MATERNO</string>
+    <string name="password">Contraseña: </string>
+    <string name="type">MEDIDA: </string>
+    <string name="numberCard">Numero de calle: </string>
+    <string name="titleUser">Usuarios </string>
+    <string name="socialName">Nombre del proveedor</string>
+    <string name="addSupply">Agregar Proveedor</string>
+    <string name="numberPhone">TELEFONO: </string>
+    <string name="typeU">Tipo</string>
+    <string name="passwordU">Contraseña</string>
+    <string name="qualitityPro">20 kg</string>
+    <string name="price">Precio por cantidad</string>
+    <string name="load">Cargando...</string>
+    <string name="susessfull">Operación exitosa :)</string>
+    <string name="insusessfull">Algo salío mal :(</string>
+    <string name="productRoom">PRODUCTO</string>
+    <string name="quantity">Cantidad</string>
+    <string name="consult">Buscat</string>
+    <string name="nameR">Nombre</string>
+    <string name="typeR">Typo de receta</string>
+    <string name="addRecipe">Agregar nueva receta</string>
+    <string name="addClient">Agregar cliente</string>
+    <string name="rfcC">RFC</string>
+    <string name="numberphonec">Numero telefonico</string>
+    <string name="addresC">Dirección</string>
+    <string name="numberaddresC"># Dirección</string>
+    <string name="cpC">Codigo postal</string>
+    <string name="colonyC">Colonia</string>
+    <string name="priceC">Ciudad</string>
+    <string name="stateC">Estado</string>
+    <string name="countryC">País</string>
+    <string name="nameC">Harina de trigo</string>
+    <string name="namePr">NOMBRE: </string>
+    <string name="alertAdd">¿Seguro que desea guardar?</string>
+    <string name="quantityPr">Cantidad: </string>
+    <string name="errorAddPr">Agregue dato</string>
+    <string name="addProduct">Agregar producto</string>
+    <string name="save">Guardar</string>
+    <string name="productAdd">Nueva materia prima</string>
+    <string name="dateProduc">Datos del producto</string>
+    <string name="buyPr">Monto:</string>
+    <string name="addPed">Nuevo pedido</string>
+    <string name="pdf">Reporte</string>
+    <string name="search">Buscar</string>
+    <string name="add">Agregar</string>
+    <string name="coste">COSTO: </string>
+    <string name="rfc">RFC</string>
+    <string name="direction">Datos de la dirección</string>
+    <string name="numberE">Numero exterior: </string>
+    <string name="colony">BARRIO: </string>
+    <string name="city">Comitán:</string>
+    <string name="supply">Proveedores</string>
+    <string name="toastNavi">Deslize a la izquierda</string>
+    <string name="nameCli">Nombre del cliente:</string>
+    <string name="logOut">Cerrar sesión</string>
+    <string name="destinationCli">Destino del pedido:</string>
+    <string name="order">Pedidos</string>
+    <string name="typeBreah">Tipo de pan:</string>
+    <string name="nameBreah">Nombre de pan:</string>
+    <string name="quantityOr">Cantidad:</string>
+    <string name="nameRecipe">NOMBRE :</string>
+    <string name="ingredient">INGREDIENTE::</string>
+    <string name="measure">MEDIDA</string>
+    <string name="delet">Eliminar</string>
+    <string name="consul">Consultar</string>
+    <string name="edit">Editar</string>
+    <string name="namee">Nombre:</string>
+    <string name="namePa">Apellido Paterno:</string>
+    <string name="typeEmpl">Tipo de empleado</string>
+    <string name="nameRo">Nombre de la ruta:</string>
+    <string name="curatorRo">Encargado de ruta:</string>
+    <string name="addRoute">Nueva ruta</string>
+    <string name="rouT">¿Guardar ruta?</string>
+    <string name="rouM">La información aparecera en la lista de ruta</string>
+    <string name="supT">¿Guardar proveedor?</string>
+    <string name="supM">La información aparecera en la lista de proveedores</string>
+    <string name="cliT">¿Guardar cliente?</string>
+    <string name="cliM">La información aparecera en la lista de cliente</string>
+    <string name="recT">¿Guardar receta?</string>
+    <string name="recM">La información aparecera en la lista de recetas</string>
+    <string name="proT">¿Guardar producto?</string>
+    <string name="proM">La información aparecera en la lista de producto</string>
+    <string name="proTM">Regresar</string>
+    <string name="proMM">No se guardara ninguna información</string>
+    <string name="costeEj">20</string>
+    <string name="dateCale">Pulse para mostrar fecha el botón</string>
+    <string name="errorDate">Verifique la información</string>
+    <string name="rfcEx">AIJ8212098T5</string>
+    <string name="numberPhonesU">TELEFONO:</string>
+    <string name="numberPhoneEx">963-138-2799</string>
+    <string name="mailSu">CORREO ELECTRONICO:</string>
+    <string name="mailEx">Alguien_Persona@outlook.com</string>
+    <string name="addresS">DIRECCIÓN:</string>
+    <string name="addresEx">Calle Conocida</string>
+    <string name="numberS">N/E: </string>
+    <string name="numberEx">0000</string>
+    <string name="cpS">CP:</string>
+    <string name="cpEx">000000</string>
+    <string name="colonyEx">Las Flores</string>
+    <string name="cityS">CIUDAD:</string>
+    <string name="cityEx">San Cristobal:</string>
+    <string name="states">ESTADO:</string>
+    <string name="stateEx">Chiapas</string>
+    <string name="citySu">San Cristobal</string>
+    <string name="nameEx">Sucursal 2</string>
+    <string name="nameRe">Pan de muerto</string>
+    <string name="measureS">0000</string>
+    <string name="orderAdd">Nueva order</string>
+    <string name="orderRoom">Ordenes del día</string>
+    <string name="bread">Productos</string>
+    <string name="orderFinis">Pedidos finalizados</string>
+    <string name="CP">CODIGO POSTAL</string>
+    <string name="NE">N/E</string>
+    <string name="colony_">COLONIA:</string>
+    <string name="addUser">Agregar usuario</string>
+    <string name="datePurchase">Fecha de compra</string>
+    <string name="next">Continuar</string>
+
+
+    <string-array name="typeBread">
+        <item>DULCE</item>
+        <item>TRADICIONAL</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>BULTOS</item>
+        <item>CAJAS</item>
+        <item>COSTALES</item>
+        <item>KILOGRAMOS</item>
+        <item>LITROS</item>
+        <item>PIEZAS</item>
+    </string-array>
+
+    <string-array name="typePan">
+        <item>Pan santo</item>
+        <item>Pan de leche</item>
+        <item>Pan de manteca</item>
+        <item>Conchita</item>
+    </string-array>
+
+    <string-array name="typeEmployed">
+        <item>Gerente</item>
+        <item>Secretaria</item>
+        <item>Jefe de Almacen</item>
+        <item>Jefe de Bodega</item>
+        <item>Panadero</item>
+        <item>Amasador</item>
+    </string-array>
+
+    <string-array name="ingredient">
+        <item>Harina</item>
+        <item>Huevos</item>
+        <item>Jarabe de Maiz</item>
+        <item>Harina de trigo</item>
+        <item>Huevos</item>
+        <item>Mantequilla</item>
+    </string-array>
+
+
+    <string name="nameRutatxt">Nombre de ruta</string>
+    <string name="verificationUser">Verifique la información del usuario</string>
+    <string name="verificationCont">Verifique la información de la contraseña</string>
+
+    <string-array name="stateContry">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chihuahua</item>
+        <item>Chiapas</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>México</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+
+</resources>

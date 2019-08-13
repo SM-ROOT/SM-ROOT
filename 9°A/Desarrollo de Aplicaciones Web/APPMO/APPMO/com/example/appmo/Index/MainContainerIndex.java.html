@@ -1,0 +1,207 @@
+<html>
+<head>
+<title>MainContainerIndex.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #808080;}
+.s3 { color: #6a8759;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+MainContainerIndex.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">com.example.appmo.Order</span><span class="s0">;</span>
+
+import <span class="s1">android.annotation.SuppressLint</span><span class="s0">;</span>
+import <span class="s1">android.content.DialogInterface</span><span class="s0">;</span>
+import <span class="s1">android.content.Intent</span><span class="s0">;</span>
+import <span class="s1">android.os.Bundle</span><span class="s0">;</span>
+import <span class="s1">android.support.annotation.NonNull</span><span class="s0">;</span>
+import <span class="s1">android.support.design.widget.BottomNavigationView</span><span class="s0">;</span>
+import <span class="s1">android.support.design.widget.NavigationView</span><span class="s0">;</span>
+import <span class="s1">android.support.v4.view.GravityCompat</span><span class="s0">;</span>
+import <span class="s1">android.support.v4.widget.DrawerLayout</span><span class="s0">;</span>
+import <span class="s1">android.support.v7.app.ActionBar</span><span class="s0">;</span>
+import <span class="s1">android.support.v7.app.AppCompatActivity</span><span class="s0">;</span>
+import <span class="s1">android.support.v7.widget.Toolbar</span><span class="s0">;</span>
+import <span class="s1">android.view.KeyEvent</span><span class="s0">;</span>
+import <span class="s1">android.view.Menu</span><span class="s0">;</span>
+import <span class="s1">android.view.MenuItem</span><span class="s0">;</span>
+import <span class="s1">android.view.View</span><span class="s0">;</span>
+import <span class="s1">android.widget.Toast</span><span class="s0">;</span>
+
+import <span class="s1">com.example.appmo.Client.MainContainerClient</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.R</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Recipe.MainContainerRecipe</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.RoomCheck.MainContainerRoomCheck</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Purchases.MainContainerRoomStock</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Purchases.ManagerFragmentRoomStock</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Sell.MainContainerSell</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Supply.MainContainerSupply</span><span class="s0">;</span>
+import <span class="s1">com.example.appmo.Employee.MainContainerUser</span><span class="s0">;</span>
+
+public class <span class="s1">MainContainerIndex </span><span class="s0">extends </span><span class="s1">AppCompatActivity</span>
+        <span class="s0">implements </span><span class="s1">NavigationView.OnNavigationItemSelectedListener {</span>
+    <span class="s0">public static </span><span class="s1">ManagerFragmentIndex states</span><span class="s0">;</span>
+
+
+    <span class="s1">@Override</span>
+    <span class="s0">protected void </span><span class="s1">onCreate(Bundle savedInstanceState) {</span>
+        <span class="s0">super</span><span class="s1">.onCreate(savedInstanceState)</span><span class="s0">;</span>
+        <span class="s1">setContentView(R.layout.container_drawer)</span><span class="s0">;</span>
+        <span class="s1">showToolBar()</span><span class="s0">;</span>
+        <span class="s1">changeFragment(ManagerFragmentIndex.NO_START)</span><span class="s0">;</span>
+
+        <span class="s1">NavigationView navigationView = findViewById(R.id.nav_view)</span><span class="s0">;</span>
+        <span class="s1">navigationView.setNavigationItemSelectedListener(</span><span class="s0">this</span><span class="s1">)</span><span class="s0">;</span>
+
+
+    <span class="s1">}</span>
+
+    <span class="s0">private void </span><span class="s1">showToolBar() {</span>
+        Toolbar toolbar = findViewById(R.id.toolbar)<span class="s0">;</span>
+        this<span class="s1">.setSupportActionBar(toolbar)</span><span class="s0">;</span>
+        final <span class="s1">ActionBar actionBar = </span><span class="s0">this</span><span class="s1">.getSupportActionBar()</span><span class="s0">;</span>
+        if <span class="s1">(actionBar != </span><span class="s0">null</span><span class="s1">) {</span>
+            actionBar.setTitle(getString(R.string.roomStock))<span class="s0">;</span>
+            <span class="s1">actionBar.setHomeAsUpIndicator(R.drawable.ic_menu_drawer)</span><span class="s0">;</span>
+            <span class="s1">actionBar.setDisplayHomeAsUpEnabled(</span><span class="s0">true</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">toolbar.setNavigationOnClickListener(</span><span class="s0">new </span><span class="s1">View.OnClickListener() {</span>
+                @Override
+                <span class="s0">public void </span><span class="s1">onClick(View v) {</span>
+                    Toast.makeText(MainContainerIndex.<span class="s0">this, </span><span class="s1">getString(R.string.toastNavi)</span><span class="s0">, </span><span class="s1">Toast.LENGTH_SHORT).show()</span><span class="s0">;</span>
+
+                <span class="s1">}</span>
+            })<span class="s0">;</span>
+        <span class="s1">}</span>
+
+    }
+
+    @Override
+    <span class="s0">public boolean </span><span class="s1">onCreateOptionsMenu(Menu menu) {</span>
+        <span class="s2">// Inflate the menu; this adds items to the action bar if it is present.</span>
+        <span class="s1">getMenuInflater().inflate(R.menu.toolbar_index_2</span><span class="s0">, </span><span class="s1">menu)</span><span class="s0">;</span>
+        return true;
+    <span class="s1">}</span>
+
+    @Override
+    <span class="s0">public boolean </span><span class="s1">onOptionsItemSelected(MenuItem item) {</span>
+        <span class="s0">switch </span><span class="s1">(item.getItemId()) {</span>
+            <span class="s0">case </span><span class="s1">R.id.itemLogOut:</span>
+                openAlert()<span class="s0">;</span>
+                break;
+
+            case <span class="s1">R.id.itemAdd:</span>
+                changeFragment(ManagerFragmentIndex.ADD_ORDER)<span class="s0">;</span>
+                break;
+
+            case <span class="s1">R.id.itemPdf:</span>
+                Toast.makeText(<span class="s0">this, </span><span class="s3">&quot;1&quot;</span><span class="s0">, </span><span class="s1">Toast.LENGTH_SHORT).show()</span><span class="s0">;</span>
+                break;
+
+            case <span class="s1">R.id.itemSearch:</span>
+                Toast.makeText(<span class="s0">this, </span><span class="s3">&quot;2&quot;</span><span class="s0">, </span><span class="s1">Toast.LENGTH_SHORT).show()</span><span class="s0">;</span>
+                return true;
+        <span class="s1">}</span>
+        <span class="s0">return super</span><span class="s1">.onOptionsItemSelected(item)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+    @Override
+    <span class="s0">public void </span><span class="s1">onBackPressed() {</span>
+        DrawerLayout drawer = findViewById(R.id.drawer_layout)<span class="s0">;</span>
+        if <span class="s1">(drawer.isDrawerOpen(GravityCompat.START)) {</span>
+            drawer.closeDrawer(GravityCompat.START)<span class="s0">;</span>
+        <span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+            <span class="s0">super</span><span class="s1">.onBackPressed()</span><span class="s0">;</span>
+        <span class="s1">}</span>
+    }
+
+
+    @SuppressWarnings(<span class="s3">&quot;StatementWithEmptyBody&quot;</span><span class="s1">)</span>
+    @Override
+    <span class="s0">public boolean </span><span class="s1">onNavigationItemSelected(MenuItem item) {</span>
+        <span class="s2">// Handle nav_index view item clicks here.</span>
+        <span class="s0">int </span><span class="s1">id = item.getItemId()</span><span class="s0">;</span>
+
+        if <span class="s1">(id == R.id.roomStock) {</span>
+            Intent intentRoomStock = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerRoomStock.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentRoomStock)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.getResourse) {</span>
+            Intent intentReport = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerSupply.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentReport)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.client) {</span>
+            Intent intentClient = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerClient.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentClient)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.recipe) {</span>
+            Intent intentRecipe = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerRecipe.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentRecipe)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.roomCheck) {</span>
+            Intent intentRoomCheck = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerRoomCheck.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentRoomCheck)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.user) {</span>
+            Intent intentUser = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerUser.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentUser)</span><span class="s0">;</span>
+
+        <span class="s1">} </span><span class="s0">else if </span><span class="s1">(id == R.id.sell) {</span>
+            Intent intentSell = <span class="s0">new </span><span class="s1">Intent(MainContainerIndex.</span><span class="s0">this, </span><span class="s1">MainContainerSell.</span><span class="s0">class</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">startActivity(intentSell)</span><span class="s0">;</span>
+
+        <span class="s1">}</span>
+
+        DrawerLayout drawer = findViewById(R.id.drawer_layout)<span class="s0">;</span>
+        <span class="s1">drawer.closeDrawer(GravityCompat.START)</span><span class="s0">;</span>
+        return true;
+    <span class="s1">}</span>
+
+    @Override
+    <span class="s0">public boolean </span><span class="s1">onKeyDown(</span><span class="s0">int </span><span class="s1">keyCode</span><span class="s0">, </span><span class="s1">KeyEvent event) {</span>
+        <span class="s0">if </span><span class="s1">(keyCode == KeyEvent.KEYCODE_BACK &amp;&amp; event.getRepeatCount() == </span><span class="s4">0</span><span class="s1">) {</span>
+            <span class="s0">return true;</span>
+        <span class="s1">}</span>
+        <span class="s0">return super</span><span class="s1">.onKeyDown(keyCode</span><span class="s0">, </span><span class="s1">event)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+    <span class="s0">private void </span><span class="s1">openAlert() {</span>
+        android.app.AlertDialog.Builder alertDialogBuilder = <span class="s0">new </span><span class="s1">android.app.AlertDialog.Builder(</span>
+                <span class="s0">this</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">alertDialogBuilder.setTitle(getString(R.string.messageAlertTitle))</span><span class="s0">;</span>
+        <span class="s1">alertDialogBuilder.setPositiveButton(getString(R.string.accept)</span><span class="s0">, new </span><span class="s1">DialogInterface.OnClickListener() {</span>
+            <span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog</span><span class="s0">, int </span><span class="s1">id) {</span>
+                System.exit(<span class="s4">0</span><span class="s1">)</span><span class="s0">;</span>
+            <span class="s1">}</span>
+        })
+                .setNegativeButton(getString(R.string.cancel)<span class="s0">,</span>
+                        new <span class="s1">DialogInterface.OnClickListener() {</span>
+                            <span class="s0">public void </span><span class="s1">onClick(DialogInterface dialog</span><span class="s0">, int </span><span class="s1">id) {</span>
+
+                            }
+                        })<span class="s0">;</span>
+
+        <span class="s1">android.app.AlertDialog alertDialog = alertDialogBuilder.create()</span><span class="s0">;</span>
+        <span class="s1">alertDialog.show()</span><span class="s0">;</span>
+
+
+    <span class="s1">}</span>
+
+    <span class="s0">public void </span><span class="s1">changeFragment(ManagerFragmentIndex states) {</span>
+        <span class="s0">this</span><span class="s1">.states = ManagerFragmentIndex.setState(states)</span><span class="s0">;</span>
+        this<span class="s1">.states.execute(</span><span class="s0">this</span><span class="s1">)</span><span class="s0">;</span>
+    <span class="s1">}</span>
+
+
+}
+</pre>
+</body>
+</html>

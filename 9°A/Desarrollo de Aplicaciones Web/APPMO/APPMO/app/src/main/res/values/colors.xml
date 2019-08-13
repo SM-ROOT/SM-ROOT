@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="toolbar">#e06666</color>
+
+    <!--TODO: Form login -->
+    <color name="textViewTitleFormLogin">#000000</color>
+    <color name="backGroupColorFormLogin">#F9CB9C</color>
+    <color name="buttonValidateFormLogin">#000000</color>
+
+    <!--TODO:CARDVIEW-->
+    <color name="cardView_title">#000000</color>
+    <color name="cardView_subtitle">#9B103C</color>
+    <color name="btn_add">#000000</color>
+    <color name="black">#000000</color>
+    <color name="colorBackgroup">#f9cb9c</color>
+    <color name="txtConsult">#2673E7</color>
+
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/itemLogOut"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/logOut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemPdf"
+        android:icon="@drawable/ic_pdf"
+        android:title="@string/pdf"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemSearch"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAdd"
+        android:icon="@drawable/ic_more"
+        android:title="@string/add"
+        app:showAsAction="never" />
+</menu>

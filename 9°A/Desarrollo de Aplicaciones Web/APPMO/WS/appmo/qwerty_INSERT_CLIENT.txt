@@ -1,0 +1,1 @@
+http://localhost/appmo/addClient.php?name=qwe&phone=wwer&addres=asd&numberaddres=12&cp=30065&colony=Las%20Flores&city=Comitan&state=Chiapas

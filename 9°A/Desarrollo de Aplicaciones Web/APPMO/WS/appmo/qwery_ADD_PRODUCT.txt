@@ -1,0 +1,1 @@
+http://localhost/appmo/addProduct.php?name=Arina de Maiz&date=Jul-18-2019&quantity=122&type=Kilos&coste=12
