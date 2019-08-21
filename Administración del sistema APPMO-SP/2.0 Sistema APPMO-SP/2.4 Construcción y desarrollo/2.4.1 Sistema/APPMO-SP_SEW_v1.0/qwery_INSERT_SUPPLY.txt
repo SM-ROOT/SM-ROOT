@@ -1,0 +1,1 @@
+http://localhost/appmo/addSupply.php?rfc=AIJ8212098T5&number=963&mail=qwe&addres=asd&numberaddres=23&cp=96=&colony=dasd&city=adadsdd&state=asda

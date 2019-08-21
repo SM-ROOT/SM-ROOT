@@ -1,0 +1,2 @@
+http://localhost/appmo/addUser.php?name=Gerardo Eduardo&subnamepather=Perez&subnamemother=Mayorga&phone=9631382799&type=Administrador&addres=Prolongacion de la 8 calle sur poniente&numberaddres=14&colony=Fracc. Las fores&cp=30065&city=Comitan de Dominguez&state=Chiapas
+
